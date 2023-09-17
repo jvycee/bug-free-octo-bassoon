@@ -1,6 +1,6 @@
 "use strict";
 
-document.addEventListener("DOMContentLoaded", () => {
+/*document.addEventListener("DOMContentLoaded", () => {
   // Validate newsletter form submission
   const newsletterForm = document.querySelector("#newsletterForm");
   newsletterForm.addEventListener("submit", (event) => {
@@ -11,11 +11,10 @@ document.addEventListener("DOMContentLoaded", () => {
       alert("Please enter a valid email address");
       event.preventDefault();
     }
-  });
+  }); */
 
-  // Toggle dark mode
-  const toggleDarkModeButton = document.querySelector("#toggleDarkMode");
-  toggleDarkModeButton.addEventListener("click", () => {
-    document.body.classList.toggle("dark-mode");
-  });
+// Toggle dark mode
+const toggleDarkModeButton = document.querySelector("#toggleDarkMode");
+toggleDarkModeButton.addEventListener("click", () => {
+  document.body.classList.toggle("dark-mode");
 });
