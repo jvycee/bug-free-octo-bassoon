@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Jaycee Lewis - Newsletter Archive</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="container">
+        <div class="header-content">
+          <div class="brand-name">Jaycee Lewis</div>
+          <nav>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#resources">Resources</a></li>
+              <li><a href="#links">Links</a></li>
+              <li><a href="#archive">Archive</a></li>
+              <li><a href="#blog">Blog</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main class="left-aligned-text">
+      <div class="card-container">
+        <div class="card">
+          <h2>Newsletter Title 1</h2>
+          <p>
+            Short description of the newsletter. Lorem ipsum dolor sit amet,
+            consectetur adipiscing elit.
+          </p>
+          <a href="link_to_newsletter1">Read More</a>
+        </div>
+        <div class="card">
+          <h2>Newsletter Title 2</h2>
+          <p>
+            Short description of the newsletter. Lorem ipsum dolor sit amet,
+            consectetur adipiscing elit.
+          </p>
+          <a href="link_to_newsletter2">Read More</a>
+        </div>
+        <div class="card">
+          <h2>Newsletter Title 3</h2>
+          <p>
+            Short description of the newsletter. Lorem ipsum dolor sit amet,
+            consectetur adipiscing elit.
+          </p>
+          <a href="link_to_newsletter3">Read More</a>
+        </div>
+        <!-- add more cards as needed -->
+      </div>
+    </main>
+    <footer>
+      <div class="footer-content">
+        <div class="footer-text">
+          <p>
+            Created with ❤️ by Jaycee and
+            <a href="https://www.openai.com/" target="_blank">GPT-4</a>
+          </p>
+        </div>
+        <div class="newsletter">
+          <p>Subscribe to my newsletter:</p>
+          <form
+            id="newsletter-form"
+            action="YOUR_HUBSPOT_FORM_ENDPOINT"
+            method="POST"
+          >
+            <input
+              type="email"
+              name="email"
+              placeholder="Enter your email"
+              required
+            />
+            <button type="submit">Subscribe</button>
+          </form>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+    <!-- Start of HubSpot Embed Code -->
+    <script
+      type="text/javascript"
+      id="hs-script-loader"
+      async
+      defer
+      src="//js.hs-scripts.com/7317559.js"
+    ></script>
+    <!-- End of HubSpot Embed Code -->
+  </body>
+</html>
