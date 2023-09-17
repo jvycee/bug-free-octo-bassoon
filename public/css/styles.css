@@ -62,6 +62,11 @@ header {
   font-size: 1.5em;
 }
 
+.brand-name a {
+  color: inherit; /* This will make the link use the color of its parent */
+  text-decoration: none; /* Removes the underline */
+}
+
 /* Container */
 .container {
   width: 80%;
